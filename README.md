@@ -37,4 +37,4 @@ https://user-images.githubusercontent.com/57689730/177004536-5bd3b701-8246-4e05-
 
 ![slika](https://user-images.githubusercontent.com/57689730/177004134-f98efff2-c650-4b80-b732-0b6d090e7054.png)
 
-**Senzor reagira namagnetno polje, ki je v bližini. Vsebuje tudi potenciometer za uravnavanje senzitivnosti. Ima analogni in digitalni izhodni pin. Digitalni sporoča le če je magnetno polje zaznano ali ne, analogno pa koliko močno je to polje in njegovo polarnost.**
+**Senzor reagira na magnetno polje, ki je v bližini. Vsebuje tudi potenciometer za uravnavanje senzitivnosti. Ima analogni in digitalni izhodni pin. Digitalni sporoča le če je magnetno polje zaznano ali ne, analogno pa koliko močno je to polje in njegovo polarnost.**
