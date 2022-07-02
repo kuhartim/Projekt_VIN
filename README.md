@@ -4,11 +4,15 @@
 
 Ideja je izdelati ročno zavoro, ki bi se uporabljala pri igranju video iger. Prvotna ideja je bila uporabiti Arduino nano, ki sem ga imel na zalogi in "KY 024 magnetic hall sensor", vendar sem nato Arduino nano zamenjal z Arduino pro micro, saj se ta (in arduino leonardo) obnaša kot kontroler. Ročna zavora deluje tako, da KY 024 senzor zaznava magnetno polje magneta, ki je prilepljen na ročno zavoro in pošilja analogne podatke v arduino. Arduino pa nato te podatke pretvori v število od 0 do 255 in s pomočjo knjižnice Joystick pošlje v računalnik.
 
+## Slike
+
+![slika](https://user-images.githubusercontent.com/57689730/177004583-6dbb1cf1-87c6-465c-a4f9-cc3cd545ec72.png)
+![slika](https://user-images.githubusercontent.com/57689730/177004597-8ea6dad7-d5a2-4698-a3fb-26a0623654e3.png)
+
 ## Video demonstracija
 
 https://user-images.githubusercontent.com/57689730/177004536-5bd3b701-8246-4e05-a22f-4fdf2c5f7d6e.mp4
 
-video
 
 ## Shema vezja
 
