@@ -6,6 +6,8 @@ Ideja je izdelati ročno zavoro, ki bi se uporabljala pri igranju video iger. Pr
 
 ## Video demonstracija
 
+https://user-images.githubusercontent.com/57689730/177004536-5bd3b701-8246-4e05-a22f-4fdf2c5f7d6e.mp4
+
 video
 
 ## Shema vezja
