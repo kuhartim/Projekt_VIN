@@ -2,7 +2,7 @@
  
 ## Ideja
 
-Ideja je izdelati ročno zavoro, ki bi se uporabljala pri igranju video iger. Prvotna ideja je bila uporabiti Arduino nano, ki sem ga imel na zalogi in "KY 024 magnetic hall sensor", vendar sem nato Arduino nano zamenjal z Arduino pro micro, saj se ta (in arduino leonardo) obnaša kot kontroler. Ročna zavora deluje tako, da KY 024 senzor zaznava magnetno polje magneta, ki je prilepljen na ročno zavoro in pošilja analogne podatke v arduino. Arduino pa nato te podatke pretvori v število od 0 do 255 in s pomočjo knjižnice Joystick pošlje v računalnik.
+Ideja je izdelati ročno zavoro, ki bi se uporabljala pri igranju video iger. Prvotna ideja je bila uporabiti Arduino nano, ki sem ga imel na zalogi in "KY 024 magnetic hall sensor", vendar sem nato Arduino nano zamenjal z Arduino pLeonardo, saj se ta (in arduino micro) obnaša kot kontroler. Ročna zavora deluje tako, da KY 024 senzor zaznava magnetno polje magneta, ki je prilepljen na ročno zavoro in pošilja analogne podatke v arduino. Arduino pa nato te podatke pretvori v število od 0 do 255 in s pomočjo knjižnice Joystick pošlje v računalnik.
 
 ## Slike
 
@@ -16,22 +16,22 @@ https://user-images.githubusercontent.com/57689730/177004536-5bd3b701-8246-4e05-
 
 ## Shema vezja
 
-![slika](https://user-images.githubusercontent.com/57689730/177003943-c5508ec3-91bd-417a-a187-72d6d8fcd08d.png)
+![slika](https://user-images.githubusercontent.com/57689730/177056433-dabffcd0-64c6-4fd2-ab3d-77d918ccdd77.png)
 
 ## Komponente
 
-- Arduino pro micro
+- Arduino Leonardo
 - KY 024 hall sensor
 - magnet
 - LEGO za izdelavo ročne
 
 ## Opis komponent
 
-### Arduino PRO Micro
+### Arduino Leonardo
 
-![slika](https://user-images.githubusercontent.com/57689730/177004008-267f0de5-e137-4c73-adfa-b723676df422.png)
+![slika](https://user-images.githubusercontent.com/57689730/177056451-1042d554-bf54-4bc3-b044-b4fc839e623b.png)
 
-**Je mikrokrmilnik, ki nam omogoča nadzorovanje vhodno izhodnih naprav. Ima pin za napajanje (VCC), pin za ozemljitev (GND), digitalne pine in analogne pine. Njegova pomembnejša lastnost zakaj sem se zanj odločil je ta, da se obnaša kot vhodna naprava kontroler (oz. tipkovnica ali miška).**
+**Je mikrokrmilnik, ki nam omogoča nadzorovanje vhodno izhodnih naprav. Ima pin za napajanje (VCC), pin za ozemljitev (GND), digitalne pine in analogne pine. Njegova pomembnejša lastnost zakaj sem se zanj odločil je ta, da se obnaša kot vhodna naprava kontroler (oz. tipkovnica ali miška). Zelo je podoben Arduinu UNO z nekaj manjšimi spremembami kot npr. pin 13 ni PWM medtem, ko na Arduinu UNO je. PWM (Pulse Width Modulation) so načeloma digitalni pini, vendar imajo možnost simulirati analogni izhod z vklaplanjem in izklaplanjem napetosti.**
 
 ### KY 024 magnetic hall senzor
 
